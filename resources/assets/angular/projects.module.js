@@ -17,9 +17,16 @@ app.controller('ProjectsController', ['$scope', function($scope, $filter){
         'Todo App',
         'Project Management App',
         'Contacts App',
-        'Social Network',
+        'Social Network App',
         'Video Sharing App',
-        'Photo Sharing App'
+        'Photo Sharing App',
+        'Online Video Game',
+        'SaaS App',
+        'Personal Finance App',
+        'Tracking App',
+        'Storage App',
+        'E-Commerce Website',
+        'Advertisement Platform'
     ];
 
     $scope.backends = [

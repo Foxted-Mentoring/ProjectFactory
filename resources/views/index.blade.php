@@ -17,10 +17,7 @@
                         <div class="divider">
                             <span>Backend</span>
                         </div>
-
-                        <h2>
-                            @{{ randomBackend.framework }}&nbsp;(@{{ randomBackend.language }})
-                        </h2>
+                        <h2>@{{ randomBackend.framework }}&nbsp;(@{{ randomBackend.language }})</h2>
                     </div>
                     <div class="half">
                         <div class="divider">
