@@ -1,2 +1,6 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Hind:400,500,600,700,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
+@import "components/layout";
+@import "components/typography";
+@import "components/utilities";

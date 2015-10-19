@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Hind:400,500,600,700,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  color: slategray;
+  background-color: white;
+  font-family: 'Hind', Helvetica, Arial, sans-serif; }
+
+.container {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; }
+
+.content {
+  text-align: center;
+  display: inline-block; }
+
+.columns {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.half {
+  width: 50%; }
+
+h1 {
+  font-size: 6em;
+  margin: 0 0 0.3em;
+  font-weight: normal;
+  text-transform: capitalize; }
+  h1 strong {
+    font-weight: bold; }
+
+h2 {
+  font-size: 4em;
+  margin: .3em auto 0;
+  font-weight: normal; }
+  h2 strong {
+    font-weight: bold;
+    text-transform: capitalize; }
+
+small {
+  width: auto;
+  clear: both;
+  margin-top: 2em;
+  padding: 0.75em 1em;
+  display: inline-block;
+  border: 1px solid #b8c0c8;
+  color: #b8c0c8; }
+
+a:link, a:visited, a:active {
+  color: #b8c0c8; }
+
+a:hover {
+  color: #4e5a65; }
+
+.divider {
+  height: 1px;
+  text-align: center;
+  color: #94a2af;
+  background-color: #b1bbc5; }
+  .divider span {
+    font-size: 1em;
+    top: -0.75em;
+    padding: 0 1em;
+    font-weight: 200;
+    position: relative;
+    background-color: white; }
+
+.fa.fa-refresh {
+  cursor: pointer;
+  margin-bottom: 1.5em;
+  color: #b1bbc5; }
+
+/*# sourceMappingURL=app.css.map */
